@@ -65,7 +65,7 @@ $(document).ready(function () {
   // Accardion faq
   var accordion = function() {
     $('.accordion-header').on('click', function(){
-      $(this).next('.accordion-body').not(':animated').slideToggle()
+      $(this).next('.accordion-body').not(':animated').slideToggle(200)
     })
     $('.accordion-header').click(function () {
       $(this).parent('.accordion li').toggleClass('active');
