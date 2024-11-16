@@ -11,6 +11,7 @@ $(document).ready(function () {
   // Open search
   $('.search__open').on('click', function() {
     $('.search').addClass('search--show');
+    $('.search__form input').focus();
   });
 
   $('body').mouseup(function (e) {
