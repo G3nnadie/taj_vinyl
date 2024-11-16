@@ -55,7 +55,7 @@
             </form>
           </div>
           <div class="panel fx align-center">
-            <div class="panel__item order-pc-1 fx"><a href="#" class="panel__link panel__link--call">Позвоните нам</a></div>
+            <div class="panel__item order-pc-1 fx"><a href="#" class="panel__link panel__link--call open-modal-feedback">Позвоните нам</a></div>
             <div class="panel__item order-pc-3 fx"><a href="https://api.whatsapp.com/send?phone=74957757783" target="_blank" class="panel__link"><i class="i-wt"></i>Whats apps</a></div>
             <div class="panel__item order-pc-2 fx"><a href="#" class="panel__link"><i class="i-heart"></i>Избранноем</a></div>
           </div>
@@ -440,6 +440,22 @@
       </div>
     </footer>
 
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal modal--feedback">
+    <div class="fullScreen flex-center">
+      <div class="modal__box">
+        <button class="close modal__close">x</button>
+        <h3 class="text-center">Оставить заявку</h3>
+        <form action="#" class="form feedback__form">
+          <label class="form__field"><input type="text" placeholder="Имя"></label>
+          <label class="form__field"><input type="text" class="phone-mask" placeholder="+ 7 (999) 999-99-99"></label>
+          <button class="btn btn--second flex-center">Оставить заявку</button>
+        </form>
+      </div>
+    </div>
   </div>
 
   <script src="libs/jquery/jquery-3.4.0.min.js"></script>
