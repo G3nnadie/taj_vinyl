@@ -1,0 +1,546 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@charset "UTF-8";
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+  h1, h2, .title__h1, .title__h2 {
+    font-size: 36px;
+  }
+  .btn {
+    font-size: 20px;
+    min-width: 240px;
+  }
+  .swiper-button-arrow {
+    width: 34px;height: 59px;
+  }
+  .navbar-toggle {
+    margin-right: 13px;
+  }
+  .search {
+    left: 145px;
+  }
+  .search__open svg,
+  .panel__link i {
+    width: 24px;height: 24px;
+  }
+  .search__form {
+    width: 230px;
+    top: 50%;left: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .search__form input {
+    font-size: 18px;
+    padding-right: 40px;
+  }
+  .search__btn {
+    right: 10px;
+  }
+  .hero__item {
+    height: 550px;
+  }
+  .hero__subtitle {
+    font-size: 24px;
+  }
+  .delivery__text {
+    font-size: 24px;
+  }
+  .contacts {
+    font-size: 22px;
+  }
+  .card__control {
+    top: 8px;
+  }
+  .card__price {
+    top: -84px;
+    font-size: 24px;
+  }
+  .card__colors-list .check__mark {
+    width: 50px;height: 50px;
+  }
+  .card__colors-list .check__mark:before {
+    width: 42px;height: 42px;
+  }
+  .card__colors-more {
+    padding-right: 30px;
+  }
+  .card__colors-more:after {
+    top: 6px;
+    width: 18px;height: 11px;
+  }
+  .accordion {
+    margin-top: 50px;
+  }
+  .accordion-header {
+    font-size: 20px;
+    min-height: 75px;
+  }
+  .accordion-header:after {
+    width: 24px;height: 14px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+  .no-scroll-mb {position: fixed;top: 0;left: 0;right: 0;bottom: 0;}
+  .md-hide {display: none;}
+
+  h1, h2, .title__h1, .title__h2 {
+    font-size: 24px;
+  }
+  .title--mb {
+    margin-bottom: 30px;
+  }
+  .title__sub {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .form__field input {
+    height: 40px;
+  }
+  .header:before {
+    z-index: 54;
+    height: 80px;
+    background: #EEEEEE;
+    pointer-events: none;
+    top: 0;left: 0;right: 0;
+  }
+  .menu-btn {
+    top: 13px;
+    z-index: 55;
+    font-size: 0;
+  }
+  .logo {
+    z-index: 55;
+    width: 134px;
+    position: relative;
+  }
+  .navbar-toggle {
+    margin-right: 0;
+  }
+  .nav {
+    opacity: 0;
+    z-index: 51;
+    width: 750px;
+    margin: 0 auto;
+    position: fixed;
+    overflow-y: auto;
+    background: #EEEEEE;
+    pointer-events: none;
+    padding: 96px 14px 16px;
+    top: 0;left: 0;right: 0;bottom: 0;
+  }
+  .nav--open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .nav__main {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 40px 0 0;
+  }
+  .nav__box+.nav__box {
+    margin-top: 40px;
+  }
+  .nav__title,
+  .nav__sublink {
+    font-weight: normal;
+  }
+  .nav__list {
+    margin-left: 12px;
+    max-width: 230px;width: 100%;
+  }
+  .nav__link {
+    font-size: 16px;
+  }
+  .relations {
+    margin-top: 40px;
+  }
+  .relations__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .relations__item a {
+    font-size: 16px;
+  }
+  .relations__item i {
+    margin-right: 45px;
+  }
+  .search {
+    left: 0;
+    position: relative;
+    max-width: 280px;width: 100%;
+  }
+  .search__open,
+  .panel__link {
+    font-size: 20px;
+  }
+  .search__open svg {
+    margin-right: 47px;
+  }
+  .search__form {
+    right: 0;
+    width: 100%;
+  }
+  .search__form input {
+    border: 0;
+    font-size: 20px;
+    padding: 0 40px 0 16px;
+  }
+  .panel {
+    display: block;
+  }
+  .panel__item {
+    margin-top: 20px;
+  }
+  .panel__link i {
+    display: none;
+  }
+  .hero__sl {
+    padding-bottom: 21px;
+  }
+  .hero__item {
+    height: auto;
+    min-height: 370px;
+    padding: 75px 13px;
+  }
+  .hero__subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .hero__btn {
+    margin-top: 40px;
+  }
+  .hero__sl .swiper-button-arrow {
+    display: none;
+  }
+  .hero__info {
+    margin-top: 100px;
+  }
+  .company {
+    padding-top: 100px;
+  }
+  .company .row [class*='col-'],
+  .contacts .row [class*='col-'],
+  .footer__body [class*='col-'],
+  .footer__bott [class*='col-'],
+  .card [class*='col-'],
+  .bell [class*='col-'],
+  .catalog__wrap > [class*='col-'] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .company__item {
+    margin-bottom: 30px;
+  }
+  .company__item span {
+    font-size: 18px;
+  }
+  .company__item p {
+    font-size: 16px;
+  }
+  .delivery {
+    padding-top: 70px;
+  }
+  .delivery__text {
+    font-size: 20px;
+  }
+  .delivery__info {
+    margin-top: 30px;
+  }
+  .contacts {
+    font-size: 16px;
+    padding-top: 100px;
+  }
+  .contacts__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .contacts__item i {
+    margin-right: 40px;
+    width: 26px;height: 26px;
+  }
+  .contacts__address {
+    margin-top: 20px;
+  }
+  .footer {
+    padding: 20px 0;
+    margin-top: 100px;
+  }
+  .footer__logo a {
+    max-width: 134px;width: 100%;
+  }
+  .footer__item {
+    margin-top: 40px;
+  }
+  .footer__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .footer__nav li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .footer__bott {
+    margin-top: 40px;
+    padding-top: 26px;
+  }
+  .footer__bott .col-6 {
+    text-align: left;
+  }
+  .footer__bott .col-3 {
+    margin-top: 40px;
+  }
+  .card__head {
+    padding: 0 30px;
+  }
+  .card__control {
+    top: 4px;
+  }
+  .card__control svg {
+    width: 24px;height: 24px;
+  }
+  .card__body {
+    margin-top: 20px;
+  }
+  .cloud-zoom-big {
+    left: 0 !important;
+  }
+  .card__price {
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .card__colors {
+    margin-top: 20px;
+  }
+  .card__colors-list .check__mark {
+    width: 32px;height: 32px;
+  }
+  .card__colors-list .check__mark:before {
+    width: 24px;height: 24px;
+  }
+  .card__colors .check__item {
+    margin-right: 14px;
+  }
+  .card__colors-body {
+    position: static;
+    margin-top: 15px;
+  }
+  .card__colors-body .card__colors-list {
+    gap: 0;
+  }
+  .accordion {
+    margin-top: 22px;
+  }
+  .accordion li {
+    border-width: 1px !important;
+  }
+  .accordion-header {
+    padding-right: 35px;
+  }
+  .accordion-header:after {
+    right: 0;
+  }
+  .accordion-body p {
+    font-size: 20px;
+    padding: 0 0 20px;
+  }
+  .bell {
+    padding: 40px 0;
+    margin-bottom: 0;
+  }
+  .bell .title h3 {
+    font-size: 20px;
+  }
+  .bell__form {
+    margin-top: 40px;
+  }
+  .bell__form .form__field {
+    margin-bottom: 20px;
+  }
+  .bell__form .form__field input {
+    max-width: 240px;width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bell__form .btn {
+    height: 56px;
+    margin-top: 20px;
+    min-width: 240px;
+  }
+  .filter {
+    padding: 0;
+    display: none;
+    margin-top: 40px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .nav {
+    width: 100%;
+  }
+  .map iframe {
+    height: 222px;
+  }
+  .card__colors-more {
+    padding: 0;
+    font-size: 0;
+    margin-left: 15px;
+    width: 24px;height: 15px;
+  }
+  .card__colors-more:after {
+    top: 0;
+    width: 100%;height: 100%;
+  }
+  .card__similar-item {
+    width: 60px;
+    margin-right: 15px;
+  }
+  .card__similar-img {
+    height: 60px;
+  }
+  .card__similar-txt {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .modal__box {
+    padding: 50px 15px;
+  }
+  .catalog__body [class*='col-'] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .catalog__item i {
+    padding-bottom: 62%;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .container {max-width: 750px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .container {max-width: 970px;}
+
+  .order-pc-1 {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;}
+  .order-pc-2 {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;}
+  .order-pc-3 {-webkit-box-ordinal-group: 4;-ms-flex-order: 3;order: 3;}
+
+  body {
+    font-size: 18px;
+  }
+  .header {
+    padding: 25px 0;
+  }
+  .search,
+  .panel {
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .nav__main {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .nav__main--open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .panel__item {
+    margin-left: 19px;
+  }
+  .panel__link:not(.panel__link--call) {
+    font-size: 0;
+  }
+  .hero__btn {
+    position: absolute;
+    left: 0;right: 0;bottom: 67px;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+  .contacts__address br {
+    display: none;
+  }
+  .card__price {
+    width: 100px;
+    text-align: right;
+    position: absolute;
+    top: -84px;right: 50px;
+  }
+  .open-filter {
+    display: none;
+  }
+  .filter {
+    margin-top: 32px;
+    display: block !important;
+  }
+  .catalog__body {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .container {max-width: 1270px;}
+
+  body {
+    font-size: 24px;
+  }
+  .header {
+    padding: 40px 0;
+  }
+  .hero {
+    padding-top: 27px;
+  }
+  .hero__info {
+    padding-left: 34px;
+  }
+  .card__price {
+    top: -95px;
+  }
+}

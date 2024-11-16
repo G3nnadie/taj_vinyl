@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Default</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <!-- Fonts END -->
+
+  <!-- Libs -->
+  <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+  <link rel="stylesheet" href="libs/cloudZoom/cloud-zoom.css">
+  <link rel="stylesheet" href="libs/ionRangeSlider/ion.rangeSlider.css">
+  <!-- Libs END -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper fx-column">
+    
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container flex-center">
+        <div class="menu-btn flex-center speed">
+          <button class="navbar-toggle">
+            <span class="icon-bar speed"></span>
+            <span class="icon-bar speed"></span>
+            <span class="icon-bar speed"></span>
+          </button>Меню
+        </div>
+        <a href="#" class="logo fx"><img src="img/logo.svg" alt="Logo"></a>
+        <nav class="nav speed">
+          <div class="search">
+            <button class="search__open flex-center">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28 28L22.6667 22.6667M25.3333 14.6667C25.3333 20.5577 20.5577 25.3333 14.6667 25.3333C8.77563 25.3333 4 20.5577 4 14.6667C4 8.77563 8.77563 4 14.6667 4C20.5577 4 25.3333 8.77563 25.3333 14.6667Z" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>Поиск
+            </button>
+            <form action="#" class="search__form speed">
+              <input type="text" placeholder="Поиск...">
+              <button class="search__btn fx">
+                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 19.5L15 15.5M17 9.5C17 13.9183 13.4183 17.5 9 17.5C4.58172 17.5 1 13.9183 1 9.5C1 5.08172 4.58172 1.5 9 1.5C13.4183 1.5 17 5.08172 17 9.5Z" stroke="#171717" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div class="panel fx align-center">
+            <div class="panel__item order-pc-1 fx"><a href="#" class="panel__link panel__link--call">Позвоните нам</a></div>
+            <div class="panel__item order-pc-3 fx"><a href="https://api.whatsapp.com/send?phone=74957757783" target="_blank" class="panel__link"><i class="i-wt"></i>Whats apps</a></div>
+            <div class="panel__item order-pc-2 fx"><a href="#" class="panel__link"><i class="i-heart"></i>Избранноем</a></div>
+          </div>
+          <div class="nav__main speed">
+            <div class="nav__box">
+              <p class="nav__title">Каталог</p>
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Для мебели</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Для автомобилей</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">HoReCa</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Для яхт и катеров</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Для галантереи и канцелярии</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Нитки</a></li>
+                <li class="nav__item nav__item--no-arrow"><a href="#" class="nav__link">Новинки</a></li>
+                <li class="nav__item nav__item--no-arrow"><a href="#" class="nav__link">Распродажа</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Смотреть все</a></li>
+              </ul>
+            </div>
+            <div class="nav__box">
+              <p class="nav__title">Контакты</p>
+              <ul class="nav__sublist">
+                <li class="nav__subitem"><a href="#" class="nav__sublink">О компании</a></li>
+              </ul>
+            </div>
+            <div class="relations">
+              <div class="relations__item"><a href="tel:+74957757783"><i class="i-tel"></i>+ 7 495 7757783</a></div>
+              <div class="relations__item"><a href="https://api.whatsapp.com/send?phone=74957757783" target="_blank"><i class="i-wt"></i>Whats App</a></div>
+              <div class="relations__item"><a href="mailto:tajvinyl@tajvinyl.ru"><i class="i-email"></i>tajvinyl@tajvinyl.ru</a></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- Main -->
+    
+    <main class="main">
+
+      <!-- Card -->
+
+      <div class="card">
+        <div class="container">
+          <div class="card__head flex-center text-center">
+            <a href="#" class="card__control card__control--prev">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.6667 22.6668L4 16.0002M4 16.0002L10.6667 9.3335M4 16.0002H28" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <div class="title">
+              <h1>Cruise E искусственная кожа</h1>
+            </div>
+            <a href="#" class="card__control card__control--next">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.3333 22.6668L28 16.0002M28 16.0002L21.3333 9.3335M28 16.0002H4" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+          <div class="card__body row">
+            <div class="col-5">
+              <div class="card__img">
+                <a href="img/hero/1.jpg" class="cloud-zoom fx">
+                  <img src="img/other/card.png" title="Название картинки">
+                </a>
+                <a href="#" class="card__favorites i-favorites"></a>
+                <p class="card__status text-center">В наличии</p>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="card__info">
+                <span class="card__price">$$$</span>
+                <div class="card__colors">
+                  <div class="card__colors-head fx fx-between align-center">
+                    <div class="card__colors-list check fx fx-wrap">
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                    </div>
+                    <button class="card__colors-more">Еще</button>
+                  </div>
+                  <div class="card__colors-body">
+                    <div class="card__colors-list check fx fx-wrap">
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                      <label class="check__item">
+                        <input type="radio" name="color">
+                        <span class="check__mark"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <ul class="accordion">
+                  <li>
+                    <div class="accordion-header speed">
+                      <p>Описание</p>
+                    </div>
+                    <div class="accordion-body">
+                      <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-header speed">
+                      <p>Коллекция</p>
+                    </div>
+                    <div class="accordion-body">
+                      <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-header speed">
+                      <p>Уход</p>
+                    </div>
+                    <div class="accordion-body">
+                      <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-header speed">
+                      <p>Похожие товары</p>
+                    </div>
+                    <div class="accordion-body">
+                      <div class="card__similar fx fx-wrap">
+                        <a href="#" class="card__similar-item">
+                          <span class="card__similar-img"><img src="img/catalog/1.png" alt="Img"></span>
+                          <span class="card__similar-txt">Текст</span>
+                        </a>
+                        <a href="#" class="card__similar-item">
+                          <span class="card__similar-img"><img src="img/catalog/1.png" alt="Img"></span>
+                          <span class="card__similar-txt">Текст</span>
+                        </a>
+                        <a href="#" class="card__similar-item">
+                          <span class="card__similar-img"><img src="img/catalog/1.png" alt="Img"></span>
+                          <span class="card__similar-txt">Текст</span>
+                        </a>
+                        <a href="#" class="card__similar-item">
+                          <span class="card__similar-img"><img src="img/catalog/1.png" alt="Img"></span>
+                          <span class="card__similar-txt">Текст</span>
+                        </a>
+                        <a href="#" class="card__similar-item">
+                          <span class="card__similar-img"><img src="img/catalog/1.png" alt="Img"></span>
+                          <span class="card__similar-txt">Текст</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bell -->
+
+      <div class="bell">
+        <div class="container">
+          <div class="title text-center">
+            <h3>Заказать звонок</h3>
+          </div>
+          <form action="#" class="row form bell__form">
+            <div class="col-3">
+              <label class="form__field"><input type="text" placeholder="Имя" required></label>
+            </div>
+            <div class="col-3">
+              <label class="form__field"><input type="text" placeholder="Телефон" class="phone-mask" required></label>
+            </div>
+            <div class="col-6 flex-center">
+              <button class="btn btn--second flex-center">Заказать</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer__body">
+          <div class="col-3">
+            <div class="footer__logo fx"><a href="#" class="fx"><img src="img/logo-white.svg" alt="Logo"></a></div>
+          </div>
+          <div class="col-2">
+            <div class="footer__item">
+              <p class="footer__title">Навигация</p>
+              <ul class="footer__nav">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Наши клиенты</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer__item">
+              <p class="footer__title">Каталог</p>
+              <ul class="footer__nav">
+                <li><a href="#">Весь каталог</a></li>
+                <li><a href="#">Для мебели</a></li>
+                <li><a href="#">Для автомобилей</a></li>
+                <li><a href="#">HoReCa</a></li>
+                <li><a href="#">Для яхт и катеров</a></li>
+                <li><a href="#">Для галантереи и канцелярии</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Распродажа</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer__item">
+              <p class="footer__title">Контакты</p>
+              <ul class="footer__nav">
+                <li><a href="#">г. Москва, ул. Бутлерова д.17</a></li>
+                <li><a href="tel:+74957757783">+7 (495) 775-77-83</a></li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <p class="footer__title">Почта</p>
+              <ul class="footer__nav">
+                <li><a href="mailto:tajvinyl@tajvinyl.ru">tajvinyl@tajvinyl.ru</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer__item">
+              <p class="footer__title">Социальные сети</p>
+              <div class="social fx">
+                <a href="#" class="social__item i-in"></a>
+                <a href="#" class="social__item i-vk"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer__bott">
+          <div class="order-pc-2 col-6 text-center"><a href="#" class="policy">Политика конфиденциальности</a></div>
+          <div class="order-pc-1 col-3"><p class="copyright">&copy; Taj Vinyl 2024</p></div>
+          <div class="order-pc-3 col-3 fx fx-end md-hide">
+            <button class="btn-up flex-center">Наверх
+              <svg viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.00281 7.03223V21.083" stroke="#EEEEEE" stroke-width="1.8" stroke-miterlimit="10"/>
+                <path d="M0.416687 10.0832L5.00117 0.916504L9.58335 10.0832H0.416687Z" fill="#EEEEEE"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="libs/jquery/jquery-3.4.0.min.js"></script>
+  <script src="libs/swiper/swiper.min.js"></script>
+  <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+  <script src="libs/cloudZoom/cloud-zoom.js"></script>
+  <script src="libs/ionRangeSlider/ion.rangeSlider.js"></script>
+  <script src="js/ion.rangeSlider.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
